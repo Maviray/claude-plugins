@@ -1,0 +1,32 @@
+{
+  "name": "maviray",
+  "owner": {
+    "name": "Maviray",
+    "url": "https://github.com/Maviray"
+  },
+  "description": "Claude Code skills for the Maviray Blazor component libraries.",
+  "plugins": [
+    {
+      "name": "maviray-material",
+      "description": "The Maviray.Blazor.Components.Material library: every Mavi* component's parameters and usage, and Material Design styling with the library's Tailwind 4 theme tokens.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Maviray/blazor-ui-kit.git",
+        "path": "plugins/maviray-material",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "maviray-grid",
+      "description": "MaviGrid, the server-paged data grid: grids from a model class, paging, sorting, filtering, column widths, menus, selection, access control and audit. Use with maviray-material.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Maviray/blazor-ui-kit-pro.git",
+        "path": "plugins/maviray-grid",
+        "ref": "main"
+      }
+    }
+  ]
+}
